@@ -43,7 +43,7 @@ Raw videos can be download from [LisaAnne/LocalizingMoments.](https://github.com
 
 ## Data Preprocessing
 
-It will be publicly uploaded later for the convenience of reproduction.
+For convenient reproduction of our research, we provide both data preprocessing scripts and pre-generated narration files.
 
 ### Extract Video Frames
 
@@ -60,6 +60,14 @@ Based on the extracted video frames, use LLaVa to generate captions for each fra
 ```sh
 python preprocess/narration/narration_generator.py --video_frames_path [your_frame_path] --video_id_list_path [your_video_id.json]
 ```
+
+### Download Pre-generated Narration Files
+
+To simplify reproduction, pre-generated narration files are available for direct download. These files include narrations for the MSR-VTT, DiDeMo, MSVD, and VATEX datasets, generated using the above process.
+
+*   **[NarVid v1.0 Release Page](https://github.com/invhun/NarVid/releases/tag/v1.0)**
+
+
 
 ## How to Run 
 

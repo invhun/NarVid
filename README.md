@@ -65,7 +65,7 @@ python preprocess/narration/narration_generator.py --video_frames_path [your_fra
 
 To simplify reproduction, pre-generated narration files are available for direct download. These files include narrations for the MSR-VTT, DiDeMo, MSVD, and VATEX datasets, generated using the above process.
 
-*   **[NarVid v1.0 Release Page](https://github.com/invhun/NarVid/releases/tag/v1.0)**
+*   **[NarVid v1.1 Release Page](https://github.com/invhun/NarVid/releases/tag/1.1)**
 
 
 
